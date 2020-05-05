@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+require 'r-fxxk'
+
+class Kurooby < Brainfuck
+  nxt '待て'
+  prv 'よし'
+  inc '抑え込み'
+  dec '解けた'
+  put '一本'
+  get '技あり'
+  opn 'はじめ'
+  cls 'それまで'
+end
+
+puts Kurooby.new.fuck(ARGF.read)
